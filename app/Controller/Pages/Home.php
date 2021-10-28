@@ -10,6 +10,9 @@ class Home
      * Método responsavel por retornar o conteudo (view) da nossa Home
      */
     public static function getHome(){
-        return View::render('pages/home');
+        return View::render('pages/home',[
+            'name' => 'Teste',
+            'description' => 'Teste de view da home'
+        ]);
     }
 }
