@@ -1,0 +1,8 @@
+{
+    "cardapio":[
+        "name",
+        "description",
+        "preco",
+        "image"
+    ]
+}
