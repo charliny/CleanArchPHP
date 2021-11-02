@@ -1,5 +1,7 @@
 <?php
 
-require __DIR__.'/vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
-echo 'Ola mundo';
+use App\Controller\Template\Page;
+
+echo Page::getPage();
